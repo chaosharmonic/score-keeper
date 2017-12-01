@@ -1,0 +1,62 @@
+body {
+  width: 60%;
+  max-width: 750px;
+  margin: 0 auto;
+  font-family: Roboto;
+  background: #2980b9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.winner {
+  color: green;
+}
+
+#outer {
+  margin-top: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+
+
+.controls {
+  padding: 5px;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 60px;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 800;
+  text-align: center;
+  background: transparent;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+#p1 {
+  background: rgba(200, 49, 49, 0.9);
+}
+
+#p2 {
+  background: rgba(49, 49, 200, 0.9);
+}
+
+.rules {
+  background: rgba(200, 49, 200, 0.9);
+}
